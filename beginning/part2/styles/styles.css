@@ -19,15 +19,17 @@ ul:first-of-type{
 ul > li > ul{
     margin-left: 37px;
 }
-
+p > img{
+    width:63;
+    height:36;
+}
 h2,h3{
     background-color: #DFE3E6;
     font-size: 1.2em;
     color: #CC1C0D;
     border-radius: 0.5rem;
     border: 0.004px solid #929CA4  ;
-    padding : 10px;
-    
+    padding : 10px;   
 }
 
 img{
@@ -49,6 +51,41 @@ section > P{
     font-weight:bold;
 }
 
+div {
+    float: left;
+    display: table-column;
+    width: 24.2%;
+    margin: 0 0 15px 0;
+    border: 1px solid #DFE3E6;
+    margin-left: 0.5%;
+    border-radius: 10px;
+    text-align: center;
+}
+div>img{
+    padding-left: 100px;
+    padding-top: 10%;
+}
+
+.pricing > div > hr {
+    margin-top: 90px;
+    height: 10px;
+}
+
+.pricing > div:first-child > hr {
+    background: #CC1C0D;
+}
+
+.pricing > div:nth-child(2) > hr {
+    background: #37A4A4;
+}
+
+.pricing > div:nth-child(3) > hr {
+    background: #685288;
+}
+
+.pricing > div:last-child > hr {
+    background: #000000;
+}
 
 
 
